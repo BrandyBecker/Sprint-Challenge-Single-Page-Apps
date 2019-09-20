@@ -4,10 +4,9 @@ export default function WelcomePage() {
   return (
     <section className="welcome-page">
       <header>
-        <h1>Welcome to the ultimate fan site!</h1>
         <img
           className="main-img"
-          src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+          src="https://www.pngix.com/pngfile/big/16-164120_but-for-season-2-adult-swim-needed-carrots.png"
           alt="rick"
         />
       </header>

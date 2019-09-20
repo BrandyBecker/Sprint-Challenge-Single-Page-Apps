@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: Url("https://www.sciencedaily.com/images/2019/08/190809170818_1_540x360.jpg");
 }
 
 main {
@@ -9,8 +10,9 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background-image: url("https://highgeek.net/wp-content/uploads/2019/01/iF2FLZk.png");
   padding: 15px;
+  background-size: cover;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
@@ -27,13 +29,55 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
-  display: block;
-  border-radius: 100%;
-  margin: 0 auto;
-} */
 
 header h1 {
   text-align: center;
+  background: rgb(27, 247, 255);
+  margin: 1rem;
+  border: 5px solid rgb(0, 135, 144);
+  border-radius: 2em;
+}
+
+.navBar {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  /* background: rgb(135, 255, 22); */
+  background-image: Url("https://i.ibb.co/1LjB3cL/rickle.png");
+  background-size: contain;
+  font-size: 1.5rem;
+  border: 5px solid rgb(84, 158, 41);
+  border-radius: 2em;
+  height: 2em;
+}
+
+.navBar a {
+  color: rgb(57, 143, 40);
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(30, 100, 9);
+}
+
+.gridCardyCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.SearchBar {
+  text-shadow: 5px 5px 5px rgb(136, 29, 97);
+  font-size: 2rem;
+  text-align: center;
+  /* background: rgb(255, 139, 230); */
+  background-image: url("https://i.ibb.co/SNmsRnp/rickley.png");
+  background-size: contain;
+  border-radius: 1em;
+  height: 4.5em;
+  margin-top: 1rem;
+  border: 5px solid rgb(175, 57, 130);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(135, 64, 138);
+  font-weight: bold;
 }
