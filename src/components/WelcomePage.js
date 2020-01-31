@@ -6,8 +6,8 @@ export default function WelcomePage() {
       <header>
         <img
           className="main-img"
-          src="https://www.pngix.com/pngfile/big/16-164120_but-for-season-2-adult-swim-needed-carrots.png"
-          alt="rick"
+          src="https://www.cartoongoodies.com/wp-content/uploads/2019/11/Rick-and-Morty-coming-out-of-portal.png"
+          alt="Rick and Morty Leaving a Portal"
         />
       </header>
     </section>

@@ -15,7 +15,7 @@ export default function CharacterCard(props) {
       <Card>
         <CardImg top width="100%" src={props.img} alt="character" />
         <CardBody>
-          <CardTitle>{props.name}</CardTitle>
+          <CardTitle className="card-title">{props.name}</CardTitle>
           <CardSubtitle>{props.location}</CardSubtitle>
           <CardText>{props.species}</CardText>
         </CardBody>

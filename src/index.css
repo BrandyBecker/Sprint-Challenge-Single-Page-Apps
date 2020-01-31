@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: Url("https://www.sciencedaily.com/images/2019/08/190809170818_1_540x360.jpg");
+  background-color: dodgerblue !important;
+  text-align: center !important;
 }
 
 main {
@@ -10,7 +11,7 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background-image: url("https://highgeek.net/wp-content/uploads/2019/01/iF2FLZk.png");
+  background-color: greenyellow;
   padding: 15px;
   background-size: cover;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -80,4 +81,9 @@ header h1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(135, 64, 138);
   font-weight: bold;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 1.3em;
 }
